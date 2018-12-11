@@ -56,7 +56,7 @@
 
         <android.support.v7.widget.AppCompatRadioButton
             android:id="@+id/rbSingleMode"
-            style="@style/Material.Drawable.RadioButton"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -65,7 +65,7 @@
 
         <android.support.v7.widget.AppCompatCheckBox
             android:id="@+id/cbMultiMode"
-            style="@style/Material.Drawable.CheckBox"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
