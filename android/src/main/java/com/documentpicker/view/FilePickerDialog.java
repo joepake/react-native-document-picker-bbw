@@ -125,6 +125,7 @@ public class FilePickerDialog extends Dialog implements AdapterView.OnItemClickL
         }
 
         LinearLayout layoutHeader = findViewById(R.id.layoutHeader);
+        layoutHeader.setBackgroundColor(accentColor);
 
         dname = (TextView) findViewById(R.id.dname);
         title = (TextView) findViewById(R.id.title);
