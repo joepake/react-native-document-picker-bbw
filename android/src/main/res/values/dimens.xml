@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="checkbox_margin">8dp</dimen>
+    <dimen name="toolbar_image_margin">16dp</dimen>
+</resources>
