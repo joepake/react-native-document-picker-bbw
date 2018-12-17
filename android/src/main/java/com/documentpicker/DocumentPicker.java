@@ -1,7 +1,9 @@
 package com.documentpicker;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
@@ -85,12 +87,21 @@ public class DocumentPicker extends ReactContextBaseJavaModule {
     }
 
     private String mimeTypeFromName(String absolutePath) {
-        String extension = MimeTypeMap.getFileExtensionFromUrl(absolutePath);
-        if (extension != null) {
-            return MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
-        } else {
-            return null;
+        Uri uri = Uri.fromFile(new File(absolutePath));
+
+        String mimeType = null;
+        if (uri != null) {
+            // if (uri.getScheme().equals(ContentResolver.SCHEME_CONTENT)) {
+            //     ContentResolver cr = getCurrentActivity().getContentResolver();
+            //     mimeType = cr.getType(uri);
+            // } else {
+                String fileExtension = MimeTypeMap.getFileExtensionFromUrl(uri
+                        .toString());
+                mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(
+                        fileExtension.toLowerCase());
+            // }
         }
+        return mimeType;
     }
 
     private int getThemeAccentColor(Context context) {
