@@ -14,23 +14,21 @@
  * limitations under the License.
  */
 
-package com.documentpicker.controller;
+package com.reactnativedocumentpicker.controller;
 
-/* <p>
- * Created by Angad Singh on 10-07-2016.
+/**<p>
+ * Created by Angad Singh on 11-07-2016.
  * </p>
  */
 
 /**
  * Interface definition for a callback to be invoked
- * when dialog selects files.
+ * when a checkbox is checked.
  */
-public interface DialogSelectionListener {
+public interface NotifyItemChecked {
 
     /**
-     * The method is called when files or directories are selected.
-     *
-     * @param files The array of String containing selected file paths.
+     * Called when a checkbox is checked.
      */
-    void onSelectedFilePaths(String files[]);
+    void notifyCheckBoxIsClicked();
 }

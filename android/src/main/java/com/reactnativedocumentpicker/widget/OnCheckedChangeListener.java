@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.documentpicker.widget;
+package com.reactnativedocumentpicker.widget;
 
 /**
  * <p>

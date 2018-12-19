@@ -1,4 +1,4 @@
-package com.documentpicker;
+package com.reactnativedocumentpicker;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

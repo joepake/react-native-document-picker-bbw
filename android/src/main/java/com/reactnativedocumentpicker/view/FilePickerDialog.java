@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.documentpicker.view;
+package com.reactnativedocumentpicker.view;
 
 import android.Manifest;
 import android.app.Activity;
@@ -35,16 +35,16 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.documentpicker.R;
-import com.documentpicker.controller.DialogSelectionListener;
-import com.documentpicker.controller.NotifyItemChecked;
-import com.documentpicker.controller.adapters.FileListAdapter;
-import com.documentpicker.model.DialogConfigs;
-import com.documentpicker.model.DialogProperties;
-import com.documentpicker.model.FileListItem;
-import com.documentpicker.model.MarkedItemList;
-import com.documentpicker.utils.ExtensionFilter;
-import com.documentpicker.utils.Utility;
+import com.reactnativedocumentpicker.R;
+import com.reactnativedocumentpicker.controller.DialogSelectionListener;
+import com.reactnativedocumentpicker.controller.NotifyItemChecked;
+import com.reactnativedocumentpicker.controller.adapters.FileListAdapter;
+import com.reactnativedocumentpicker.model.DialogConfigs;
+import com.reactnativedocumentpicker.model.DialogProperties;
+import com.reactnativedocumentpicker.model.FileListItem;
+import com.reactnativedocumentpicker.model.MarkedItemList;
+import com.reactnativedocumentpicker.utils.ExtensionFilter;
+import com.reactnativedocumentpicker.utils.Utility;
 
 import java.io.File;
 import java.util.ArrayList;

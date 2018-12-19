@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.documentpicker.view;
+package com.reactnativedocumentpicker.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -25,10 +25,10 @@ import android.preference.Preference;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.documentpicker.R;
-import com.documentpicker.controller.DialogSelectionListener;
-import com.documentpicker.model.DialogConfigs;
-import com.documentpicker.model.DialogProperties;
+import com.reactnativedocumentpicker.R;
+import com.reactnativedocumentpicker.controller.DialogSelectionListener;
+import com.reactnativedocumentpicker.model.DialogConfigs;
+import com.reactnativedocumentpicker.model.DialogProperties;
 
 import java.io.File;
 

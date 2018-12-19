@@ -1,13 +1,9 @@
-package com.documentpicker;
+package com.reactnativedocumentpicker;
 
-import android.content.ContentResolver;
 import android.content.Context;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
-import android.os.Bundle;
 import android.os.Environment;
-import android.util.Log;
 import android.util.TypedValue;
 import android.webkit.MimeTypeMap;
 
@@ -18,10 +14,10 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
-import com.documentpicker.controller.DialogSelectionListener;
-import com.documentpicker.model.DialogConfigs;
-import com.documentpicker.model.DialogProperties;
-import com.documentpicker.view.FilePickerDialog;
+import com.reactnativedocumentpicker.controller.DialogSelectionListener;
+import com.reactnativedocumentpicker.model.DialogConfigs;
+import com.reactnativedocumentpicker.model.DialogProperties;
+import com.reactnativedocumentpicker.view.FilePickerDialog;
 
 import java.io.File;
 

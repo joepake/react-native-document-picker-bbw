@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.documentpicker.widget;
+package com.reactnativedocumentpicker.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -25,7 +25,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.documentpicker.view.FilePickerDialog;
+import com.reactnativedocumentpicker.view.FilePickerDialog;
 
 /**
  * <p>

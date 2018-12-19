@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.documentpicker.utils;
+package com.reactnativedocumentpicker.utils;
 
-import com.documentpicker.model.DialogConfigs;
-import com.documentpicker.model.DialogProperties;
+import com.reactnativedocumentpicker.model.DialogConfigs;
+import com.reactnativedocumentpicker.model.DialogProperties;
 
 import java.io.File;
 import java.io.FileFilter;

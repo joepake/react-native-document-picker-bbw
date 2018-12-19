@@ -14,10 +14,9 @@
  * limitations under the License.
  */
 
-package com.documentpicker.controller.adapters;
+package com.reactnativedocumentpicker.controller.adapters;
 
 import android.content.Context;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.support.v7.widget.AppCompatCheckBox;
 import android.support.v7.widget.AppCompatRadioButton;
@@ -32,13 +31,13 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.documentpicker.R;
-import com.documentpicker.controller.NotifyItemChecked;
-import com.documentpicker.model.DialogConfigs;
-import com.documentpicker.model.DialogProperties;
-import com.documentpicker.model.FileListItem;
-import com.documentpicker.model.MarkedItemList;
-import com.documentpicker.view.FilePickerDialog;
+import com.reactnativedocumentpicker.R;
+import com.reactnativedocumentpicker.controller.NotifyItemChecked;
+import com.reactnativedocumentpicker.model.DialogConfigs;
+import com.reactnativedocumentpicker.model.DialogProperties;
+import com.reactnativedocumentpicker.model.FileListItem;
+import com.reactnativedocumentpicker.model.MarkedItemList;
+import com.reactnativedocumentpicker.view.FilePickerDialog;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

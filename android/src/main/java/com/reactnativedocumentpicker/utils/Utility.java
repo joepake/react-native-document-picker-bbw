@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.documentpicker.utils;
+package com.reactnativedocumentpicker.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.documentpicker.model.FileListItem;
+import com.reactnativedocumentpicker.model.FileListItem;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.documentpicker.model;
+package com.reactnativedocumentpicker.model;
 
 import java.io.File;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.documentpicker.model;
+package com.reactnativedocumentpicker.model;
 
 /**<p>
  * Created by Angad Singh on 11-07-2016.
